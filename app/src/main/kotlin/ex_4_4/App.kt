@@ -38,4 +38,5 @@ fun <T> makeString(list: List<T>, delim: String): String {
 fun main() {
     println(App().greeting)
 	println(makeString(listOf("a", "b", "c","d"), " delim "))
+	println(makeString(listOf(1,2,3,4,5), "+"))
 }
